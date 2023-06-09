@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>   
+    
+</head>
+<style>
+    fieldset {
+        margin-left: 25em;
+        margin-right: 25em;
+        margin-top: 5em;
+    }
+</style>
+
+<body>
+    
+    <form onsubmit="check();">
+    <fieldset>
+    <legend>Register Form</legend>
+    <div class="box" align="center">
+    <label>Firstname: </label>
+    <input type="text" name="firstname"/>
+    <br/>
+    <label>Lastname: </label>
+    <input type="text" name="lastname"/>
+    <br/>
+    <label>Password: </label>
+    <input type="password" name="pwd" id="password" />
+    <br/>
+    <label>Confirm Password: </label>
+    <input type="password" name="confirm_pwd" id="confirm_password"/>
+    <br/>
+    <label>Email:</label>
+    <input type="email" name="email" id="email">
+    <br/>
+    <label>Confirm Email:</label>
+    <input type="email" id="confirm_email">
+    <br/>
+    <label>Birthday:</label>
+    <input type="date" min="1980-01-01" max="2005-01-01">
+    <!-- <select name="birthdate">
+        <option value="day"  min="1" max="31"></option>
+        <option value="month"  min="1" max="12"></option>
+        <option type="year"  min="1980" max="2005"></option>
+    </select> -->
+    <br/>
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" checked/>Male
+    <input type="radio" name="gender" value="female"/>Female
+    <br/>
+    <input type="submit" text="Submit">
+    <input type="reset" text="Reset">
+    </div>
+    </form>
+    </fieldset>
+    
+    <script>
+        var check = function() {
+        if (document.getElementById("password").value !=
+            document.getElementById("confirm_password").value) {
+            alert("Password incorrect");  
+        }
+
+        if (document.getElementById("email").value !=
+            document.getElementById("confirm_email").value) {
+            alert("Email incorrect");  
+        }
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+    font-family:Courier;
+}
+
+.header{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-color:rgb(220, 217, 217);
+}
+
+h1{
+    text-align: center;
+}
+
+img.petong{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.introduction{
+    margin: 25px 10px;
+}
+
+p{
+    text-indent: 5em;
+    line-height: 1.5;
+}
+
+ul:not(.nav){
+    line-height: 2;
+}
+
+.contact-detail{
+    display: block;
+    border-style: solid;
+    border-color: black;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+table, th, td {
+    /* border-style: solid;
+    border-color: black; */
+    border-collapse: collapse;
+    
+}
+
+.top-bar{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    padding: 5px 5px 5px 5px;
+    background-color: beige;
+}
+
+.item{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.item-box{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
