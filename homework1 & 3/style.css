@@ -52,18 +52,20 @@ table, th, td {
     
 }
 
-.top-bar{
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 1em;
+.top-bar {
+    /* margin-left: 70%; */
+    /* margin-right: 70%; */
+    margin-top: 5em;
     padding: 5px 5px 5px 5px;
     background-color: beige;
+    width: 70%;
+    margin: auto;
 }
 
 .item{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 80px;
 }
 
 .item-box{
@@ -71,4 +73,9 @@ table, th, td {
     padding-left: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
